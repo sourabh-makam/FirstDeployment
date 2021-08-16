@@ -1,0 +1,44 @@
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    
+       
+  }
+
+  p{
+      font-weight: bold;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 20px;
+      color: whitesmoke;
+      text-align: center;
+  }
+
+  .para-container{
+      width: 200px;
+      height: 200px;
+      background-color: crimson;
+      border-radius: 50%;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+  }
+
+  button{
+      border-radius: 10px;
+      cursor: pointer;
+  }
+
+  button:hover{
+      background-color: turquoise;
+  }
+
+  body{
+      background-color: rgb(49, 46, 46);
+       
+  }
+ 
+ 
+  
+  
