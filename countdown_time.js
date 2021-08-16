@@ -6,28 +6,31 @@ const arr = ["crimson", "lavender", "teal", "pink", "steelblue"]
 
 
 function clicked() {
-    setTimeout(() => {
-        para.innerText = "10";
+    if (para.innerText == "" || para.innerText == "Happy Independence Day") {
         setTimeout(() => {
-            para.innerText = "9";
+
+            para.innerText = "10";
             setTimeout(() => {
-                para.innerText = "8";
+                para.innerText = "9";
                 setTimeout(() => {
-                    para.innerText = "7";
+                    para.innerText = "8";
                     setTimeout(() => {
-                        para.innerText = "6";
+                        para.innerText = "7";
                         setTimeout(() => {
-                            para.innerText = "5";
+                            para.innerText = "6";
                             setTimeout(() => {
-                                para.innerText = "4";
+                                para.innerText = "5";
                                 setTimeout(() => {
-                                    para.innerText = "3";
+                                    para.innerText = "4";
                                     setTimeout(() => {
-                                        para.innerText = "2";
+                                        para.innerText = "3";
                                         setTimeout(() => {
-                                            para.innerText = "1";
+                                            para.innerText = "2";
                                             setTimeout(() => {
-                                                para.innerText = "Happy Independence Day";
+                                                para.innerText = "1";
+                                                setTimeout(() => {
+                                                    para.innerText = "Happy Independence Day";
+                                                }, 1000)
                                             }, 1000)
                                         }, 1000)
                                     }, 1000)
@@ -38,5 +41,6 @@ function clicked() {
                 }, 1000)
             }, 1000)
         }, 1000)
-    }, 1000)
+    }
+    
 }
